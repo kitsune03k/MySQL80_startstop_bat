@@ -11,7 +11,8 @@ MySQL in Windows run as a windows service automatically, this batch file makes M
 2. Active_MySQL80
 
     Rollback all changes.
-
+   
+#
 
 **In fact, modify an "obj" in line 10 to other service name will works as well.**
 
