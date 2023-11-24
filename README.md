@@ -6,7 +6,7 @@ MySQL in Windows run as a windows service automatically, this batch file makes M
 
 1. Passive_MySQL80
    
-    Make MySQL80 only starts by user's demand, and make batch files in ~\Documents\Scripts_MySQL80.
+    Make MySQL80 only starts by user's demand, batch files in ~\Documents\Scripts_MySQL80, shortcuts with admin privilege in ~\Desktop
 
 2. Active_MySQL80
 
