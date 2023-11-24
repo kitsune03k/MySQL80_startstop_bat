@@ -1,5 +1,12 @@
 @echo off
 
+NET SESSION >nul 2>&1
+if %ERRORLEVEL% neq 0 (
+echo ** Priviege Error **
+echo Run this batch file as an administartor!
+goto theend
+)
+
 set "obj=MySQL80"
 sc config %obj% start=demand
 
@@ -90,4 +97,5 @@ powershell -Command "$bytes = [System.IO.File]::ReadAllBytes('%lnk3%'); $bytes[0
 
 echo .bat and .lnk files are created
 
+:theend
 pause
