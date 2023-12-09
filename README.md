@@ -17,3 +17,5 @@ MySQL in Windows run as a windows service automatically, this batch file makes M
 **In fact, modify an "obj" in line 10 to other service name will works as well.**
 
 Name of service can be found at services.msc.
+##
+Contact : kitsune03@outlook.com
